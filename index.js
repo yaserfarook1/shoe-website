@@ -1,7 +1,7 @@
 
 
 
-
+$.alert("okok");
 
 
 document.querySelector(".cartbtn").addEventListener("click",getVal());
