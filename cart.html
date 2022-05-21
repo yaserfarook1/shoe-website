@@ -41,8 +41,8 @@
 
      <!-- Nav Bar -->
      <nav class="navbar navbar-expand-lg "style="color:white;">
-       <a class="navbar-brand" href="index.html">
-<img class="mainlogo-cart" src="cover.png" alt="">
+       <a class="navbar-brand" href="C:\Users\Farook\Desktop\preskale\index.html">
+<img class="mainlogo-cart" src="C:\Users\Farook\Desktop\preskale\images\cover.png" alt="">
        </a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -53,19 +53,19 @@
        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left:500px;">
          <ul class="navbar-nav mr-auto">
            <li class="nav-item active">
-             <a class="nav-link" href="mrn.html"> <span class="sr-only"><h6>men</h6></span></a>
+             <a class="nav-link" href="mrn.html"> <span class="sr-only"><h6>Men</h6></span></a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="men.html"><h6>men</h6></a>
+             <a class="nav-link" href="men.html"><h6>Men</h6></a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="women.html"><h6>Women</h6></a>
+             <a class="nav-link" href="#"><h6>Women</h6></a>
            </li>
            <li class="nav-item dropdown">
              <a class="nav-link" href="#"><h6>kids</h6></a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="#"><h6>collection</h6></a>
+             <a class="nav-link" href="#"><h6>Collection</h6></a>
            </li>
            <li class="nav-item">
              <a class="fa-nav-link" href="account.html"><i class="fa-solid fa-circle-user "></i></a>
@@ -92,7 +92,7 @@
          <tr>
            <td>
              <div class="cart-info">
-               <img src="item1.webp" alt="">
+               <img src="C:\Users\Farook\Desktop\preskale\images\item1.webp" alt="">
              </div>
              <div >
                <p class="cartp">Green shoes</p>
@@ -101,7 +101,7 @@
                <a href="">Remove</a>
              </div>
            </td>
-           <td><input type="number" value="1" ></td>
+           <td><input  type="number" id=quantity value="1" onblur="getVal()" ></td>
            <td class="cartp">$50.00</td>
 
          </tr>
@@ -132,8 +132,9 @@
 
 
        </div>
-     </div>
 
+     </div>
+<button class="cartbtn" type="button" name="button">Checkout</button>
 
 
 
@@ -145,13 +146,16 @@
 
  <!---footer--->
  <footer id="footer">
-   <i class="social fa-brands fa-facebook-f"></i>
-   <i class="social fa-brands fa-twitter"></i>
-   <i class="social fa-brands fa-instagram"></i>
-   <i class="social fa-solid fa-envelope"></i>
+   <a href="https://facebook.com"><i class="social fa-brands fa-facebook-f"></i></a>
+   <a href="https://twitter.com/yaserfarook2"><i class="social fa-brands fa-twitter"></i></a>
+   <a href="https://www.instagram.com/yaser_farook/?hl=en"><i class="social fa-brands fa-instagram"></i></a>
+   <a href="https://mail.google.com/"><i class="social fa-solid fa-envelope"></i></a>
    <p>© Copyright Happy Heels</p>
 
  </footer>
 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
