@@ -12,9 +12,7 @@ body{
  color: #fff;
 }
 
-a:hover{
-   background-color: #FFC600;
-}
+
 
 h6{
   color: #fff;
@@ -37,6 +35,10 @@ h1{
 }
 .fa-nav-link{
   color: #fff;
+
+}
+.fa-nav-link:hover{
+  color: White;
 }
 .nav-link{
   color: #fff;
@@ -222,6 +224,7 @@ height: 100%;
 
 .social{
   margin: 20px 10px;
+  color: grey;
 }
 /*cart item*/
 .cart-page{
@@ -234,6 +237,9 @@ table{
 .cart-info{
   display: flex;
 
+}
+.cartbtn{
+  margin-left: 95%;
 }
 .mainlogo-cart{
   width: 200px;
@@ -295,7 +301,10 @@ td img{
   width: 20rem;
 padding: 15px;
 }
+.men-item:hover {
 
+    transform: translateY(-10px);
+  }
 .options{
 margin-left: 1000px;
 text-align: left;
@@ -383,4 +392,54 @@ h3{
   margin: 20px;
   margin-left: 0;
   padding-left: 0;
+}
+
+/*nav bar hover*/
+
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color:white;
+}
+
+.nav-link:after  {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after  {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.fa-nav-link {
+  display: inline-block;
+  position: relative;
+  color:white;
+}
+
+.fa-nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.fa-nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
